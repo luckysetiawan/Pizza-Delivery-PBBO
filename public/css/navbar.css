@@ -1,0 +1,13 @@
+.navbar{
+    border-bottom: solid #BDBDBD 2px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid red;
+}
+.navbar .pizza{
+    color: grey;
+    padding-top: 10px;
+}
+.active{
+    border-bottom: 2px solid red;
+}
