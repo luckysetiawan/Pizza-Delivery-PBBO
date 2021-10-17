@@ -13,15 +13,16 @@
     <title>Welcome to Pizza Pizza</title>
 </head>
 
-<body>
+<body class="bg-secondary bg-gradient">
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
-        <div class="container-fluid">
+        <div class="container-fluid bg-light bg-gradient">
             <span style="font-weight: bold">
                 <a class="navbar-brand" href="#">
                     <img src="/images/PizzaIcon.png" alt="" width="40" height="35" class="d-inline-block align-text-top">
                     <span class="pizza">Pizza Pizza</span>
                 </a>
             </span>
+
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -48,11 +49,24 @@
             </div>
         </div>
     </nav>
-    <h1>Welcome to Pizza Pizza</h1>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container">
+        <img src="https://github.blog/wp-content/uploads/2020/04/Facebook_1200-x-630_Option1%402x.png?width=1065&height=559" class="img-fluid" alt="pizza">
+
+        <center>
+        <div class="card" style="width: 18rem;">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="example@examplemail.com">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Address</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Jl.Example No.1">
+            </div>
+        </div>
+        </center>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
