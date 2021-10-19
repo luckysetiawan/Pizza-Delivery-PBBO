@@ -9,7 +9,7 @@ class Payment extends Model
 {
     use HasFactory;
 
-    protected $table = 'Payments';
+    protected $table = 'payment';
     protected $primarykey = 'invoice';
 
     protected $fillable = [
