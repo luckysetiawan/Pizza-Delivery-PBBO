@@ -9,7 +9,7 @@ class DeliveryGuy extends User
 {
     use HasFactory;
 
-    protected $table = 'DeliveryGuys';
+    protected $table = 'delivery_guy';
     protected $primarykey = 'id';
 
     protected $fillable = [

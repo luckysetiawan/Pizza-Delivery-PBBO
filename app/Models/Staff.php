@@ -9,7 +9,7 @@ class Staff extends User
 {
     use HasFactory;
 
-    protected $table = 'Staffs';
+    protected $table = 'staff';
     protected $primarykey = 'id';
 
     protected $fillable = [

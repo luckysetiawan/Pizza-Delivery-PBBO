@@ -9,7 +9,7 @@ class Chef extends User
 {
     use HasFactory;
 
-    protected $table = 'Chefs';
+    protected $table = 'chef';
     protected $primarykey = 'id';
 
     protected $fillable = [

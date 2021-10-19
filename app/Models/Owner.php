@@ -9,7 +9,7 @@ class Owner extends User
 {
     use HasFactory;
 
-    protected $table = 'Owners';
+    protected $table = 'owner';
     protected $primarykey = 'id';
 
     protected $fillable = [

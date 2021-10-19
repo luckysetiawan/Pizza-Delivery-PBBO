@@ -9,7 +9,7 @@ class Customer extends User
 {
     use HasFactory;
 
-    protected $table = 'Customers';
+    protected $table = 'customer';
     protected $primarykey = 'id';
 
     protected $fillable = [
